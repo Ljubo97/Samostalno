@@ -1,0 +1,6 @@
+
+tasks:
+  - init:
+    command: npm run start
+
+
