@@ -47,6 +47,20 @@
     >
       Dodaj novi Ulaz
     </a>
+    <a
+    use:link
+    href="/admin/izmjeniulaz"
+    class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+  >
+    Izmjeni Ulaz
+  </a>
+  <a
+  use:link
+  href="/admin/obrisiulaz"
+  class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+>
+  Obrisi Ulaz
+</a>
    
     <div class="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
     <span

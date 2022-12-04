@@ -13,6 +13,8 @@
   import Tables from "views/admin/Tables.svelte";
   import Maps from "views/admin/Maps.svelte";
   import DodajUlaz from "views/admin/DodajUlaz.svelte";
+import IzmjeniUlaz from "views/admin/IzmjeniUlaz.svelte";
+import ObrisiUlaz from "views/admin/ObrisiUlaz.svelte";
 
   export let location;
   export let admin = "";
@@ -30,6 +32,10 @@
         <Route path="tables" component="{Tables}" />
         <Route path="maps" component="{Maps}" />
         <Route path="dodajulaz" component="{DodajUlaz}" />
+        <Route path="izmjeniulaz" component="{IzmjeniUlaz}" />
+
+        <Route path="obrisiulaz" component="{ObrisiUlaz}" />
+
 
       </Router>
       <FooterAdmin />
