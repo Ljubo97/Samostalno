@@ -4,7 +4,7 @@
 
   // core components
 
-  const image = "../assets/img/team-1-800x800.jpg";
+  const image = "../assets/img/logo.png";
 
   let dropdownPopoverShow = false;
 

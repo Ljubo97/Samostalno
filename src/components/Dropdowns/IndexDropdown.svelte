@@ -47,32 +47,12 @@
     >
       Dodaj novi Ulaz
     </a>
-    <a
-      use:link
-      href="/admin/settings"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-    >
-      Settings
-    </a>
-    <a
-      use:link
-      href="/admin/tables"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-    >
-      Tables
-    </a>
-    <a
-      use:link
-      href="/admin/maps"
-      class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
-    >
-      Maps
-    </a>
+   
     <div class="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
     <span
       class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
     >
-      Auth Layout
+      Auth 
     </span>
     <a
       use:link
@@ -92,21 +72,21 @@
     <span
       class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
     >
-      No Layout
+      Stranice
     </span>
     <a
       use:link
       href="/landing"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
     >
-      Landing
+      O Nama
     </a>
     <a
       use:link
       href="/profile"
       class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
     >
-      Profile
+      Korisnik
     </a>
   </div>
 </div>
