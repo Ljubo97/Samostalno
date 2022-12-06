@@ -10,8 +10,8 @@
   import Register from "views/auth/Register.svelte";
 
   const registerBg2 = "../assets/img/register_bg_2.png";
-  export const location=any;
-  export const auth = any;
+  export let location;
+  export let auth = "";
 </script>
 
 <div>

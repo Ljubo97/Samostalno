@@ -4,8 +4,7 @@
   import Footer from "components/Footers/Footer.svelte";
 
   const team2 = "/assets/img/team-2-800x800.jpg";
-  export const location=any;
-
+  export let location;
 </script>
 
 <div>

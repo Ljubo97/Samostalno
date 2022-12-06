@@ -1,8 +1,7 @@
 <script>
   // core components
   import MapExample from "components/Maps/MapExample.svelte";
-  export const location=any;
-
+  export let location;
 </script>
 
 <div class="flex flex-wrap">
