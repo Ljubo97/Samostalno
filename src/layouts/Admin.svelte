@@ -15,9 +15,19 @@
   import DodajUlaz from "views/admin/DodajUlaz.svelte";
 import IzmjeniUlaz from "views/admin/IzmjeniUlaz.svelte";
 import ObrisiUlaz from "views/admin/ObrisiUlaz.svelte";
+import DodajIzvod from "views/admin/DodajIzvod.svelte";
+import IzmjeniIzvod from "views/admin/IzmjeniIzvod.svelte";
+import ObrisiIzvod from "views/admin/ObrisiIzvod.svelte";
+
+import DodajStanara from "views/admin/DodajStanara.svelte";
+import IzmjeniStanara from "views/admin/IzmjeniStanara.svelte";
+import ObrisiStanara from "views/admin/ObrisiStanara.svelte";
+    import KarticePlacanja from "views/admin/KarticePlacanja.svelte";
+    import ZavediUplatu from "views/admin/ZavediUplatu.svelte";
+
 
   export let location;
-  export let admin = "";
+  export const admin = "";
 </script>
 
 <div>
@@ -33,8 +43,15 @@ import ObrisiUlaz from "views/admin/ObrisiUlaz.svelte";
         <Route path="maps" component="{Maps}" />
         <Route path="dodajulaz" component="{DodajUlaz}" />
         <Route path="izmjeniulaz" component="{IzmjeniUlaz}" />
-
         <Route path="obrisiulaz" component="{ObrisiUlaz}" />
+        <Route path="dodajstanara" component="{DodajStanara}" />
+        <Route path="izmjenistanara" component="{IzmjeniStanara}" />
+        <Route path="obrisistanara" component="{ObrisiStanara}" />
+        <Route path="dodajizvod" component="{DodajIzvod}" />
+        <Route path="izmjeniizvod" component="{IzmjeniIzvod}" />
+        <Route path="obrisiizvod" component="{ObrisiIzvod}" />
+        <Route path="karticeplacanja" component="{KarticePlacanja}" />
+        <Route path="zavediuplatu" component="{ZavediUplatu}" />
 
 
       </Router>

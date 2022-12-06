@@ -108,6 +108,30 @@
             Dodaj novi Ulaz
           </a>
         </li>
+        <li class="items-center">
+          <a
+            use:link
+            href="/admin/izmjeniulaz"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/izmjeniulaz') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+          >
+            <i
+              class="fas fa-edit mr-2 text-sm {location.href.indexOf('/admin/izmjeniulaz') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+            ></i>
+            Izmjeni Ulaz
+          </a>
+        </li>
+        <li class="items-center">
+          <a
+            use:link
+            href="/admin/obrisiulaz"
+            class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/obrisiulaz') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+          >
+            <i
+              class="fas fa-trash mr-2 text-sm {location.href.indexOf('/admin/obrisiulaz') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+            ></i>
+            Obrisi Ulaz
+          </a>
+        </li>
       </ul>
       <h6
       class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
@@ -130,6 +154,44 @@
         </a>
       </li>
 
+      <li class="items-center">
+        <a
+          use:link
+          href="/admin/karticeplacanja"
+          class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/karticeplacanja') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+        >
+          <i
+            class="fas fa-credit-card mr-2 text-sm {location.href.indexOf('/admin/karticeplacanja') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+          ></i>
+          Kartice placanja
+        </a>
+      </li>
+  
+
+      <li class="items-center">
+        <a
+          use:link
+          href="/admin/izmjenistanara"
+          class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/izmjenistanara') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+        >
+          <i
+            class="fas fa-edit mr-2 text-sm {location.href.indexOf('/admin/izmjenistanara') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+          ></i>
+          Izmjeni stanara
+        </a>
+      </li>
+      <li class="items-center">
+        <a
+          use:link
+          href="/admin/obrisiulaz"
+          class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/obrisistanara') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+        >
+          <i
+            class="fas fa-trash mr-2 text-sm {location.href.indexOf('/admin/obrisistanara') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+          ></i>
+          Obrisi stanara
+        </a>
+      </li>
     </ul>
     <h6
     class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
@@ -151,7 +213,45 @@
         Dodaj novi Izvod
       </a>
     </li>
+    
+    <li class="items-center">
+      <a
+        use:link
+        href="/admin/zavediuplatu"
+        class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/zavediuplatu') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+      >
+        <i
+          class="fas fa-credit-card mr-2 text-sm {location.href.indexOf('/admin/zavediuplatu') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+        ></i>
+        Zavedi uplatu
+      </a>
+    </li>
 
+    <li class="items-center">
+      <a
+        use:link
+        href="/admin/izmjeniizvod"
+        class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/izmjeniizvod') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+      >
+        <i
+          class="fas fa-edit mr-2 text-sm {location.href.indexOf('/admin/izmjeniizvod') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+        ></i>
+        Izmjeni izvod
+      </a>
+    </li>
+
+    <li class="items-center">
+      <a
+        use:link
+        href="/admin/obrisiizvod"
+        class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/obrisiizvod') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+      >
+        <i
+          class="fas fa-trash mr-2 text-sm {location.href.indexOf('/admin/obrisiizvod') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+        ></i>
+        Obrisi izvod
+      </a>
+    </li>
 
    
       <!-- Divider -->
