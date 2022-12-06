@@ -1,7 +1,8 @@
 <script>
   // core components
   import CardTable from "components/Cards/CardTable.svelte";
-  export let location;
+  export const location=any;
+
 </script>
 
 <div class="flex flex-wrap mt-4">

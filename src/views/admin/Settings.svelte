@@ -2,7 +2,8 @@
   // core components
   import CardSettings from "components/Cards/CardSettings.svelte";
   import CardProfile from "components/Cards/CardProfile.svelte";
-  export let location;
+  export const location=any;
+ 
 </script>
 
 <div class="flex flex-wrap">

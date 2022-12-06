@@ -26,8 +26,8 @@ import ObrisiStanara from "views/admin/ObrisiStanara.svelte";
     import ZavediUplatu from "views/admin/ZavediUplatu.svelte";
 
 
-  export let location;
-  export const admin = "";
+  export const location=any;
+  export const admin = any;
 </script>
 
 <div>
