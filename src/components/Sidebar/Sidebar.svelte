@@ -57,7 +57,7 @@
           <div class="w-6/12">
             <a
               use:link
-              class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
+              class="md:block text-left md:pb-2 text-blueGray-500 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0"
               href="/"
             >
               Agencija Pahulja
@@ -108,8 +108,51 @@
             Dodaj novi Ulaz
           </a>
         </li>
+      </ul>
+      <h6
+      class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+    >
+      UPRAVLJAJ Stanarima
+    </h6>
+    <!-- Navigation -->
 
-    
+    <ul class="md:flex-col md:min-w-full flex flex-col list-none">
+      <li class="items-center">
+        <a
+          use:link
+          href="/admin/dodajstanara"
+          class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/dodajstanara') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+        >
+          <i
+            class="fas fa-plus mr-2 text-sm {location.href.indexOf('/admin/dodajstanara') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+          ></i>
+          Dodaj novog stanara
+        </a>
+      </li>
+
+    </ul>
+    <h6
+    class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline"
+  >
+    UPRAVLJAJ Izvodima
+  </h6>
+  <!-- Navigation -->
+
+  <ul class="md:flex-col md:min-w-full flex flex-col list-none">
+    <li class="items-center">
+      <a
+        use:link
+        href="/admin/dodajizvod"
+        class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/dodajizvod') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
+      >
+        <i
+          class="fas fa-plus mr-2 text-sm {location.href.indexOf('/admin/dodajizvod') !== -1 ? 'opacity-75' : 'text-blueGray-300'}"
+        ></i>
+        Dodaj novi Izvod
+      </a>
+    </li>
+
+
    
       <!-- Divider -->
       <hr class="my-4 md:min-w-full" />
