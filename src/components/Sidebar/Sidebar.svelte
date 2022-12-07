@@ -183,7 +183,7 @@
       <li class="items-center">
         <a
           use:link
-          href="/admin/obrisiulaz"
+          href="/admin/obrisistanara"
           class="text-xs uppercase py-3 font-bold block {location.href.indexOf('/admin/obrisistanara') !== -1 ? 'text-red-500 hover:text-red-600':'text-blueGray-700 hover:text-blueGray-500'}"
         >
           <i
