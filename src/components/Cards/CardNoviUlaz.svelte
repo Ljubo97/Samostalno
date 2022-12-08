@@ -1,9 +1,6 @@
 <script lang="ts">
 
-export let imeUlaza=""
- let prikazi(){
-    console.log(imeUlaza)
-}
+
     export let statSubtitle = "KREIRAJ NOVI ULAZ";
     export let statTitle = "NAZIV ULAZA";
     // The value must match one of these strings
@@ -44,12 +41,12 @@ export let imeUlaza=""
         </div>
       </div>
       <form action="">
-      <input bind:value={imeUlaza}  type="text" name="NazivZg" placeholder="Ime Ulaza">
+      <input  type="text" name="NazivZg" placeholder="Ime Ulaza">
     <input  type="text" aria-label="pibOb" placeholder="PIB Ulaza">
     <input  type="text" aria-label="zrOb" placeholder="Ziro racun Ulaza">
 
     <input  type="text" aria-label="psOb" placeholder="Pocetno stanje Ulaza">
-    <button on:mouseenter="prikazi" style="background-color: green;color:white;">+Kreiraj Ulaz</button>
+    <button  style="background-color: green;color:white;">+Kreiraj Ulaz</button>
 </form>
       <p class="text-sm text-blueGray-400 mt-4">
         
