@@ -77,7 +77,7 @@
                   </div>
                   <br>
                  
-                    <button  style="background-color: green;color:white;">+Kreiraj Ulaz</button>
+                    <button  style="background-color: green;color:white;">+Uplati </button>
             
              
                     <br>
