@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-      <form action="">
+      <form action="/" method="post">
       <input  type="text" name="NazivZg" placeholder="Ime Ulaza">
     <input  type="text" aria-label="pibOb" placeholder="PIB Ulaza">
     <input  type="text" aria-label="zrOb" placeholder="Ziro racun Ulaza">

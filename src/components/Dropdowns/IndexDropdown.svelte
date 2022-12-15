@@ -61,7 +61,58 @@
 >
   Obrisi Ulaz
 </a>
-   
+<span
+class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+>
+Upravljaj stanarima
+</span>
+<a
+use:link
+href="/admin/dodajstanara"
+class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+>
+Dodaj novog stanara
+</a>
+<a
+use:link
+href="/admin/izmjenistanara"
+class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+>
+Izmjeni stanara
+</a>
+<a
+use:link
+href="/admin/obrisistanara"
+class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+>
+Obrisi stanara
+</a>
+<span
+class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+>
+Upravljaj izvodima
+</span>
+<a
+use:link
+href="/admin/dodajizvod"
+class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+>
+Dodaj novi izvod
+</a>
+<a
+use:link
+href="/admin/izmjeniizvod"
+class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+>
+Izmjeni izvod
+</a>
+<a
+use:link
+href="/admin/obrisiizvod"
+class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+>
+Obrisi izvod
+</a>
     <div class="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
     <span
       class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"

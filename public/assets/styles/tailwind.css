@@ -3158,27 +3158,27 @@ select {
 
 .text-orange-500 {
   --tw-text-opacity: 1;
-  color: rgba(249, 115, 22, var(--tw-text-opacity));
+  color: rgba(138, 0, 230, var(--tw-text-opacity));
 }
 
 .text-red-200 {
   --tw-text-opacity: 1;
-  color: rgba(254, 202, 202, var(--tw-text-opacity));
+  color: rgba(138, 0, 230, var(--tw-text-opacity));
 }
 
 .text-red-400 {
   --tw-text-opacity: 1;
-  color: rgba(248, 113, 113, var(--tw-text-opacity));
+  color: rgba(153, 0, 255, var(--tw-text-opacity));
 }
 
 .text-red-500 {
   --tw-text-opacity: 1;
-  color: rgba(239, 68, 68, var(--tw-text-opacity));
+  color: rgba(173, 51, 255, var(--tw-text-opacity));
 }
 
 .text-red-600 {
   --tw-text-opacity: 1;
-  color: rgba(220, 38, 38, var(--tw-text-opacity));
+  color: rgba(163, 26, 255, var(--tw-text-opacity));
 }
 
 .text-gray-500 {
@@ -3243,27 +3243,27 @@ select {
 
 .hover\:text-red-600:hover {
   --tw-text-opacity: 1;
-  color: rgba(220, 38, 38, var(--tw-text-opacity));
+  color: rgba(138, 0, 230, var(--tw-text-opacity));
 }
 
 .hover\:text-blueGray-300:hover {
   --tw-text-opacity: 1;
-  color: rgba(203, 213, 225, var(--tw-text-opacity));
+  color: rgba(138, 0, 230, var(--tw-text-opacity));
 }
 
 .hover\:text-blueGray-500:hover {
   --tw-text-opacity: 1;
-  color: rgba(100, 116, 139, var(--tw-text-opacity));
+  color: rgba(138, 0, 230, var(--tw-text-opacity));
 }
 
 .hover\:text-blueGray-700:hover {
   --tw-text-opacity: 1;
-  color: rgba(51, 65, 85, var(--tw-text-opacity));
+  color: rgba(138, 0, 230, var(--tw-text-opacity));
 }
 
 .hover\:text-blueGray-800:hover {
   --tw-text-opacity: 1;
-  color: rgba(30, 41, 59, var(--tw-text-opacity));
+  color: rgba(138, 0, 230, var(--tw-text-opacity));
 }
 
 .truncate {
